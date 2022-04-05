@@ -1,13 +1,15 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Input Matakuliah</title>
 </head>
-
 <body>
     <center>
-        <form action="<?= ("Matakuliah/cetak");  ?>"
-method="post">
+        <?php echo validation_errors(); ?>
+        <form action="<?= ('matakuliah/cetak'); ?>"method="post">
             <table>
                 <tr>
                     <th colspan="3">
@@ -15,7 +17,7 @@ method="post">
                     </th>
                 </tr>
                 <tr>
-                    <td colspan="3">
+                    <td clospan="3">
                         <hr>
                     </td>
                 </tr>
@@ -38,10 +40,10 @@ method="post">
                     <td>:</td>
                     <td>
                         <select name="sks" id="sks">
-                            <option value="">pilih SKS</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
+                        <option value="">Pilih SKS</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                         </select>
                     </td>
                 </tr>
@@ -52,11 +54,9 @@ method="post">
                 </tr>
             </table>
         </form>
-</center>
+    </center>
 </body>
-
 </html>
-    
         
                             
                             
