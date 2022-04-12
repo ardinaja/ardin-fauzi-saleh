@@ -1,16 +1,17 @@
 # WP2_ardinfauzisaleh
 # Penambahan 
+# WP2_Perpus_TugasPertemuan5
+HASIL OUTPUT :
+output_tabel_buku.png
 
-ASIL OUTPUT :
+Output_tabel_role.png
 
-Output-tampildata.png
+Output_tabel_User.png
 
-Output_kode_mtk.png
-
-Output_nama_mtk.png
+Output_tabel_kategori.png
 
 File Yang Ditambahkan Sebagai Berikut :
 
-pustaka-booking/Application/Controller = penambahan codingan di Matakuliah.php yaitu codingan form_validation
+pustaka-booking/Application/config = autoload.php, database.php
 
-pustaka-booking/config/ = penambahan config autoload
+pustaka-booking/Application/Models = ModelUser.php, ModelBuku.php
