@@ -1,17 +1,14 @@
 # WP2_ardinfauzisaleh
 # Penambahan 
-# WP2_Perpus_TugasPertemuan5
+# WP2_TugasPertemuan6
 HASIL OUTPUT :
-output_tabel_buku.png
 
-Output_tabel_role.png
+Output_form_data_siswa.png
 
-Output_tabel_User.png
-
-Output_tabel_kategori.png
+hasil_output_form_data_siswa.png
 
 File Yang Ditambahkan Sebagai Berikut :
 
-pustaka-booking/Application/config = autoload.php, database.php
+pustaka-booking/Application/Controller = Formsiswa.php
 
-pustaka-booking/Application/Models = ModelUser.php, ModelBuku.php
+pustaka-booking/Application/Views = view-data-siswa.php, view-form-siswa.php
